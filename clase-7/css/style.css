@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* ############### GENERAL ############### */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* ############### DESCUENTO ############### */
+
+aside {
+  background: #1cd1b0;
+}
+
+aside p {
+  font-size: 2.5vh;
+  color: #110f0f;
+  padding: 1vh 0 1vh 1.5vw;
+}
+
+/* ############### CABECERA ############### */
+
+header {
+  background: #00669f;
+  box-shadow: 0px 1vh 1vh rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+header h1 {
+  color: #ffffff;
+  padding: 1.5vh 0 1.5vh 1.5vw;
+  font-size: 5vh;
+}
+
+/* ############### CARTAS CONTENEDOR ############### */
+
+.cartas-contenedor {
+  width: 33vw;
+  margin: auto;
+  text-align: center;
+}
+
+/* ############### TARJETAS ############### */
+
+.cartas {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  height: 80vh;
+  position: relative;
+  background-color: #e5e5e5;
+  border-radius: 5vh 5vh 0 0;
+}
+
+.fa-heart {
+  color: red;
+  position: absolute;
+  font-size: 5vh;
+  top: 4vh;
+  left: 4vh;
+}
+
+.backgrounds {
+  height: 40%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5vh 5vh 0 0;
+}
+
+.perfiles {
+  height: 20vh;
+  width: 12vw;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 32%;
+}
+
+article h2 {
+  font-size: 5vh;
+  margin-top: 8vh;
+}
+
+.ver-mas {
+  margin-top: 4vh;
+}
+
+article p {
+  font-size: 2vh;
+  text-align: justify;
+  margin: 4vh 3vw 0 3vw;
+}
+
+.ver-mas {
+  display: inline-block;
+  background: #00669f;
+  color: #f3f3f3;
+  font-size: 3vh;
+  padding: 3vh 3vw;
+  border-radius: 1vh;
+}
+
+/* ############### BATMAN ############### */
+.batman-bg {
+  background-image: url(../img/bg-batman.jpg);
+}
+.batman-perfil {
+  background-image: url(../img/batman.jpg);
+}
+/* ############### MARAVILLA ############### */
+.maravilla-bg {
+  background-image: url(../img/bg-wonderw.jpg);
+}
+.maravilla-perfil {
+  background-image: url(../img/wonderw.jpg);
+}
+/* ############### SUPERMAN ############### */
+.superman-bg {
+  background-image: url(../img/bg-superman.jpg);
+}
+.superman-perfil {
+  background-image: url(../img/superman.jpg);
+}
+
+/* ############### AGREGAR HEROES ############### */
+.fa-plus-circle{
+  font-size: 10vh;
+  color: #00669f;
+  position: fixed;
+  bottom: 10vh;
+  right: 3vw;
+}
+
+/* ############### FOOTER ############### */
+
+footer {
+  background: #00669f;
+  height: 10vh;
+  position: relative;
+}
+
+footer p {
+  font-size: 1.8vw;
+  width: 40vw;
+  margin: auto;
+  padding-top: 3vh;
+  color: white;
+}
+
+.github {
+  position: absolute;
+  height: 4vh;
+  right: 2vw;
+  bottom: 2vh;
+}

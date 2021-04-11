@@ -1,0 +1,28 @@
+body {
+  background: lightgray;
+}
+
+.volver {
+  width: 25vw;
+  height: 7vh;
+  margin: auto;
+  margin-top: 15vh;
+  background-color: #00669f;
+  color: whitesmoke;
+  font-size: 5vh;
+  text-align: center;
+  border-radius: 5vh;
+  text-decoration: underline;
+}
+
+
+p {
+    font-size: 10vh;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 5vw;
+    margin: auto;
+}
