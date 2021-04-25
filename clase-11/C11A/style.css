@@ -1,0 +1,44 @@
+body{
+    background-color: lightgray;
+}
+a{
+    font-size: 4rem;
+    text-decoration: none;
+    color: mediumturquoise;
+}
+a:link{
+    color: deeppink;
+}
+a:visited{ /* pseudoclases se agregan con : */
+    color: lightsalmon;
+}
+a:hover{
+    color: lime;
+}
+a:active{
+    color: red;
+}
+input:focus{
+    font-weight: 900;
+    color: red;
+    font-size: 2em;
+}
+input:disabled{
+    background-color: greenyellow;
+}
+a::after{  /* pseudoelementos se agregan con doble :: */
+    content: " un texto ingresado con after";
+    color:mediumvioletred
+}
+a::before{
+    content: 'un texto ingresado con before ';
+    color: rgb(13, 194, 52)
+}
+input:invalid{
+    background-color: red;
+    color: white;
+}
+input:valid{
+    background-color: greenyellow;
+    color: black;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julian Rousseau</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label for="texto">texto</label>
+        <input name="texto" type="text" placeholder="USUARIO" id="texto" />
+        <br />
+        <label for="contrasena">contrasena</label>
+        <input
+          name="contrasena"
+          id="contrasena"
+          type="password"
+          placeholder="CONTRASENA"
+        />
+        <br />
+        <label for="email">email</label>
+        <input name="email" id="email" type="email" placeholder="eMAIL" />
+        <br />
+        <label for="telefono">telefono </label>
+        <input
+          name="telefono"
+          id="telefono"
+          type="tel"
+          placeholder="TELEFONO"
+        />
+        <br />
+        <label for="coment">comentario </label>
+        <textarea
+          name="coment"
+          id="coment"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="COMENT"
+        ></textarea>
+        <br />
+        <label for="opciones">lista desplegable o combo box</label>
+        <select name="opciones" id="opciones">
+          <option value="1">opcion 1</option>
+          <option value="2">opcion 2</option>
+          <option value="3">opcion 3</option>
+          <option value="4" selected>opcion 4</option>
+          //select para una opcion seleccionada por defecto
+        </select>
+        <br />
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="RESTABLECER">
+      </fieldset>
+    </form>
+  </body>
+</html>
