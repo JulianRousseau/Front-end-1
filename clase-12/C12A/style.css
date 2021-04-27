@@ -1,0 +1,57 @@
+h2{
+    font-size: 3em;
+    width: 20%;
+    background-color: lightgray;
+    transition: 2s;
+}
+
+.Translados:hover{
+    transform: translate(50%, -50%); /*primer valor para (derecha e izquierda) segundo valor (arriba abajo)*/
+}
+
+.Escalados:hover{
+    transform: scale(1.1) /*si le damos un solo valor afectara en todas las direcciones, si le damos dos valores, el primero sera la horizontal y el segundo la vertical*/
+}
+.Sesgados:hover{
+    transform: skew(0deg,-10deg); /*igual que scale podemos darle uno o dos valores*/
+}
+.Rotados:hover{
+    transform-origin: bottom right 60px;
+    transform: rotate(-90deg);
+}
+
+div{
+    background-color: lightgreen;
+    height: 150px;
+    width: 150px;
+    transition: 3s;
+}
+div h3{
+    padding: 60px 30px;
+}
+div:hover{
+    border-radius: 50%;
+    background-color: lightsalmon;
+    color: maroon;
+}
+
+@keyframes palpitando{
+    0%{
+        color: red;
+        font-size: 100px;
+    }
+    100%{
+        color: tomato;
+        font-size: 120px;
+    }
+}
+
+.fa-heart{
+    margin: 50px 10px;
+    animation-name: palpitando; /*aca asignamos nuestra animacion que creamos en keyframes*/
+    animation-duration: 1s;
+    animation-iteration-count: infinite; /* la cantidad de veces que queremos que se de la animacion */
+    animation-direction: alternate; /*alternate para simular que va y vuelve*/
+    /* forma reducida => animation: palpitando 1s infinite alternate */
+}
+
