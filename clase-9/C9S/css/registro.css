@@ -1,0 +1,74 @@
+@import url(./base.css);
+
+main {
+  margin-top: 10%;
+}
+
+main h1 {
+  font-family: "Inter";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+main input ,main select{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  border: 1px solid var(--negro);
+}
+
+main input ,main input::placeholder, main select{
+  color: var(--negro);
+  font-family: "Karla";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 00;
+  letter-spacing: 0em;
+  padding-left: 5px;
+}
+
+select{
+  margin-bottom: 15px;
+  background-color: var(--blanco);
+}
+
+select:active{
+    margin-bottom: 80px;
+}
+
+main input[type="submit"],
+input[type="reset"] {
+  width: 47%;
+  display: inline-block;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 20px;
+  font-family: "Karla";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+main input[type="reset"]{
+    background-color: var(--gris-oscuro);
+    color: var(--blanco);
+}
+main input[type="submit"]{
+    background-color: var(--verde-claro);
+    position: relative;
+    left: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+a p span {
+  color: var(--negro);
+}

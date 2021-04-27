@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/registro.css">
+
+    <title>Registro</title>
+</head>
+
+<body>
+    <aside>
+        <p>20% de descuento en todos los productos!</p>
+    </aside>
+    <header>
+        <img src="./img/logoTienda.svg" alt="Logo Tienda" />
+        <h2>Julian Shop</h2>
+    </header>
+    <main>
+        <h1>Registro</h1>
+        <form action="./home.html" method="GET">
+            <input type="text" name="nombreApellido" placeholder="Nombre y Apellido" required />
+            <input type="email" name="email" placeholder="Usuario" required />
+            <input type="password" name="password" placeholder="Contraseña" required />
+            <select name="pais" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="colombia">Colombia</option>
+                <option value="brasil">Brasil</option>
+            </select>
+            <div>
+                <input type="reset" name="Resetear" value="Resetear" />
+                <a href="./home.html"><input type="submit" name="entrar" value="Entrar" /></a>
+            </div>
+            <a href="./index.html">
+                <p><span>¿Ya tenés una cuenta?</span> Ingresá</p>
+            </a>
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+@import url(./base.css);
+
+main {
+  margin-top: 15%;
+}
+
+main h1 {
+  font-family: "Inter";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+main input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  border: 1px solid var(--negro);
+
+}
+
+main input, main input::placeholder{
+    color: var(--negro);
+  font-family: 'Karla';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  padding-left: 5px;
+}
+
+main input[type="submit"] {
+  margin-top: 20px;
+  background-color: var(--verde-claro);
+  border: 0;
+  border-radius: 20px;
+  font-family: "Karla";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a p span{
+    color: var(--negro);
+}
