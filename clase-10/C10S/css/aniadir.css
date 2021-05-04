@@ -1,5 +1,142 @@
 @import url(./base.css);
 
-main{
-    height: 800px;
+section {
+  width: 70%;
+  height: 800px;
+  margin: 30px auto;
+  background-color: var(--azul-oscuro);
+  border-radius: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  color: var(--blanco);
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: var(--blanco);
+}
+
+.contenedorColumnas {
+  width: 85%;
+  margin: 15px auto;
+  text-align: left;
+}
+
+.columnas {
+  display: inline-block;
+  width: 48%;
+  margin: 0 10px;
+}
+
+/* AMBAS COMUNAS */
+.labelsGrandes,
+#nombre,
+#fecha,
+#descripcion,
+#especie {
+  display: inline-block;
+  width: 100%;
+}
+
+#nombre,
+#fecha,
+#especie {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+  color: grey;
+}
+
+.labelsGrandes {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-top: 10px;
+  color: var(--blanco);
+}
+
+#nombre,
+#fecha,
+#especie {
+  width: 100%;
+  height: 63px;
+  border-radius: 15px;
+  background-color: var(--blanco);
+}
+
+/* COLUMNA 1 */
+#descripcion {
+  height: 300px;
+  border-radius: 15px;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* COLUMNA 2 */
+input[type="file"] {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+p label {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: var(--blanco);
+}
+
+hr {
+  margin: 10px 0;
+}
+
+#poderes,
+#tipoPersonaje {
+  width: 20px;
+  height: 20px;
+  margin: 10px 0;
+}
+
+#poderes:checked,
+#tipoPersonaje:checked {
+  color: red;
+}
+
+/* ANIADIR */
+
+input[type="submit"] {
+  width: 466px;
+  height: 80px;
+  border-radius: 23px;
+  background-color: var(--verde-claro);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+}
+
+input[type="submit"]:hover{
+  background-color: var(--negro);
+  color: var(--blanco);
 }

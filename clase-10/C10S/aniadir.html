@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/aniadir.css">
-    <title>AÑADIR</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/aniadir.css">
+  <title>AÑADIR</title>
 </head>
+
 <body>
-    <aside>
-        <p>20% de descuento en todos los productos!</p>
-      </aside>
-      <header>
-        <img src="./img/logoTienda.svg" alt="Logo Tienda" />
-        <h2>Julian Shop</h2>
-      </header>
-      <nav>
-        <ul>
-          <li><a href="">Contacto</a></li>
-          <li><a href="">Registrarme</a></li>
-          <li><a href="">Ingresar</a></li>
-        </ul>
-      </nav>
-      <main>
-          
-      </main>
-    <footer>
-        <p>Todos los derechos reservados a FRONT END 1</p>
-      </footer>
+  <aside>
+    <p>20% de descuento en todos los productos!</p>
+  </aside>
+  <header>
+    <img src="./img/logoTienda.svg" alt="Logo Tienda" />
+    <h2>Julian Shop</h2>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="">Contacto</a></li>
+      <li><a href="">Registrarme</a></li>
+      <li><a href="">Ingresar</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h1>Añadí tu super!</h1>
+      <h3>Agregá tu personaje favorito completando las opciones.</h3>
+      <form action="./index.html">
+        <div class="contenedorColumnas">
+          <div class="columnas">
+            <label for="nombre" class="labelsGrandes">*Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <label for="fecha" class="labelsGrandes">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripcion"></textarea>
+          </div>
+          <div class="columnas">
+            <label for="especie" class="labelsGrandes">*Especie</label>
+            <select name="especie" id="especie" required>
+              <option disabled selected>Especie</option>
+              <option value="humano">Humano</option>
+              <option value="alien">Alien</option>
+              <option value="Dios">Dios</option>
+            </select>
+            <label for="foto" class="labelsGrandes">Agregar Foto</label>
+            <input type="file" name="foto" id="foto" multiple accept=".jpg, .png, .svg">
+            <label for="poderes" class="labelsGrandes">Poderes</label>
+            <p><label><input type="checkbox" name="poderes" id="poderes" value="volar"> Volar</label></p>
+            <p><label><input type="checkbox" name="poderes" id="poderes" value="inteligencia"> SuperInteligencia</label>
+            </p>
+            <p><label><input type="checkbox" name="poderes" id="poderes" value="rayo"> Vista de rayo láser</label></p>
+            <p><label><input type="checkbox" name="poderes" id="poderes" value="billetera"> Billetera gorda</label></p>
+            <hr>
+            <label for="tipoPersonaje" class="labelsGrandes">Tipo de Personaje</label>
+            <p><label><input type="radio" name="tipoPersonaje" id="tipoPersonaje" value="heroe"> Héroe / Heroina</label>
+            </p>
+            <p><label><input type="radio" name="tipoPersonaje" id="tipoPersonaje" value="villano"> Villano /
+                Villana</label></p>
+          </div>
+        </div>
+
+        <input type="submit" name="Añadir" value="Añadir">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Todos los derechos reservados a FRONT END 1</p>
+  </footer>
 </body>
+
 </html>

@@ -1,0 +1,34 @@
+div {
+  font-size: 20px;
+}
+div article {
+  font-size: 2em;
+}
+div article h1 {
+  font-size: 1em;
+}
+div article h2 {
+  font-size: 1rem; /*toma como referencia el font-size de html, no se ven afectados por el tag que los contiene*/
+}
+
+div article h2 p {
+  font-size: 1em;
+}
+
+@media (min-width: 500px){
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width: 800px){
+    body{
+        background-color: lightgray;
+    }
+}
+
+@media (max-width: 200px){
+    body{
+        background-color: greenyellow;
+    }    
+}
