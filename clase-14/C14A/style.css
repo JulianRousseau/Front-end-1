@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.contenidos {
+  width: 200px;
+  background-color: red;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.blue {
+  background-color: blue;
+  order: -1;
+}
+
+.green {
+  background-color: greenyellow;
+  align-self: flex-end;
+}
