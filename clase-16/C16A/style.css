@@ -1,0 +1,30 @@
+.padre {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20px 40px 60px 80px;
+}
+
+.num1 {
+  background-color: black;
+}
+.num2 {
+  background-color: red;
+}
+.num3 {
+  background-color: blue;
+}
+.num4 {
+  background-color: yellow;
+}
+.num5 {
+  background-color: greenyellow;
+}
+.num6 {
+  background-color: pink;
+}
+.num7 {
+  background-color: orange;
+}
+.num8 {
+  background-color: purple;
+}
